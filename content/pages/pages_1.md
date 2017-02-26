@@ -1,25 +1,8 @@
 Title: About
 
-40423219
-40423207 404232077
-40423206
-40423226
-40423229
-40423241
-40123158
-
-##2017Spring 機械設計工程系協同產品設計實習
-
-課程倉儲: <a href="http://github.com/mdecourse/2017springcd">http://github.com/mdecourse/2017springcd</a>
-
-課程投影片: <a href="http://mdecourse.github.io/2017springcd">http://mdecourse.github.io/2017springcd</a>
-
-課程網誌: <a href="http://mdecourse.github.io/2017springcd/blog">http://mdecourse.github.io/2017springcd/blog</a>
-
-
-
-
-
-
-
-
+<h3>NFU-MDE104B-40423226-胡原愷</h3>
+<p>倉儲: <a href="https://github.com/40423226/2017springcd_hw">https://github.com/40423226/2017springcd_hw</a></p>
+<p>簡報: <a href="https://40423226.github.io/2017springcd_hw">https://40423226.github.io/2017springcd_hw</a></p>
+<p>網誌: <a href="https://40423226.github.io/2017springcd_hw/blog/">https://40423226.github.io/2017springcd_hw/blog/</a></p>
+<p>Vimeo: <a href="https://vimeo.com/user46807821">https://vimeo.com/user46807821</a></p>
+<p>Youtube: <a href="https://www.youtube.com/channel/UCOCiRpI5ND4RKKHHtDcDGsg">https://www.youtube.com/channel/UCOCiRpI5ND4RKKHHtDcDGsg</a></p>
