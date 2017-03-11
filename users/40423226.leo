@@ -44,15 +44,12 @@
 <v t="leo.20170304121232.3"><vh>上課內容1</vh></v>
 </v>
 </v>
-<v t="leo.20170304121240.1"><vh>20170301Week2</vh>
+<v t="leo.20170304121240.1" a="E"><vh>20170301Week2</vh>
 <v t="leo.20170304121240.2"><vh>課堂報告1</vh>
 <v t="leo.20170304121240.3"><vh>上課內容1</vh></v>
 </v>
 <v t="leo.20170304132216.1"><vh>課堂報告2</vh>
 <v t="leo.20170304132216.2"><vh>上課內容2</vh></v>
-</v>
-<v t="leo.20170304121240.6"><vh>fourbar</vh>
-<v t="leo.20170304121240.7"><vh>影片</vh></v>
 </v>
 </v>
 <v t="leo.20170304121220.1"><vh>各式內容引用範例</vh>
@@ -72,8 +69,10 @@
 </v>
 </v>
 <v t="yen.20170108171733.71" a="E"><vh>@path content</vh>
+<v t="leo.20170311120022.1"><vh>@edit 20170221.md</vh></v>
 <v t="leo.20170226215021.1"><vh>@edit 20170222.md</vh></v>
 <v t="leo.20170304120513.1"><vh>@edit 20170301.md</vh></v>
+<v t="leo.20170311113011.1"><vh>@edit 20170308.md</vh></v>
 <v t="yen.20170108171733.81"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
@@ -225,18 +224,6 @@ make.start()
 
 6.利用協同完成Solvespace4連桿機構組立
 </t>
-<t tx="leo.20170304121240.6">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20170304121240.7"># Fourbar
-
-&lt;iframe src="https://player.vimeo.com/video/206177676" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20170304121248.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others

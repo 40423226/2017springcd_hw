@@ -1,5 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (NFU-MDE104B-40423226)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-03-01T11:00:00+08:00</updated><entry><title>20170301 Week 2</title><link href="./Week%202.html" rel="alternate"></link><published>2017-03-01T11:00:00+08:00</published><updated>2017-03-01T11:00:00+08:00</updated><author><name>2017springcd_bg1</name></author><id>tag:,2017-03-01:./Week 2.html</id><summary type="html">&lt;h3&gt;分組座位原始碼&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (NFU-MDE104B-40423226)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-03-08T11:00:00+08:00</updated><entry><title>201703018 Week 3</title><link href="./Week%203.html" rel="alternate"></link><published>2017-03-08T11:00:00+08:00</published><updated>2017-03-08T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-03-08:./Week 3.html</id><summary type="html">&lt;h3&gt;HyperWorks 14.0 Student Edition&lt;/h3&gt;
+
+&lt;p&gt;Student Edition: &lt;b&gt;&lt;a href="http://www.altairuniversity.com/get-the-free-hyperworks-14-0-student-edition/"&gt;Download Now!&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;h3&gt;Fourbar&lt;/h3&gt;
+
+&lt;p&gt;Link_30: &lt;button onClick="lity('https://vimeo.com/207891452')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; SolveSpace&lt;/button&gt; 
+&lt;button onClick="lity('https://vimeo.com/207891474')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Onshape&lt;/button&gt; 
+&lt;button onClick="lity('./../data/fourbar/Link_30 (SolveSpace).png')"&gt;&lt;span class="glyphicon glyphicon-picture"&gt;&lt;/span&gt; 尺寸圖&lt;/button&gt;&lt;/p&gt;
+
+&lt;p&gt;Link_50: &lt;button onClick="lity('https://vimeo.com/207891460')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; SolveSpace&lt;/button&gt; 
+&lt;button onClick="lity('https://vimeo.com/207891480')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Onshape&lt;/button&gt; 
+&lt;button onClick="lity('./../data/fourbar/Link_50 (SolveSpace).png')"&gt;&lt;span class="glyphicon glyphicon-picture"&gt;&lt;/span&gt; 尺寸圖&lt;/button&gt;&lt;/p&gt;
+
+&lt;p&gt;Link_60: &lt;button onClick="lity('https://vimeo.com/207891463')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; SolveSpace&lt;/button&gt; 
+&lt;button onClick="lity('https://vimeo.com/207891487')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Onshape&lt;/button&gt; 
+&lt;button onClick="lity('./../data/fourbar/Link_60 (SolveSpace).png')"&gt;&lt;span class="glyphicon glyphicon-picture"&gt;&lt;/span&gt; 尺寸圖&lt;/button&gt;&lt;/p&gt;
+
+&lt;p&gt;Fourbar組裝: &lt;button onClick="lity('https://vimeo.com/207891469')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; SolveSpace&lt;/button&gt; 
+&lt;button onClick="lity('https://vimeo.com/207891489')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; Onshape&lt;/button&gt;&lt;/p&gt;
+
+&lt;h3&gt;Fossil&lt;/h3&gt;
+
+&lt;p&gt;1. 更改Start.bat設定&lt;/p&gt;
+
+&lt;pre class="brush: python"&gt;
+REM tiny2017 主要針對初學 Python3 與 C 學員所建立
+REM 近端使用 fossil 管理資料版本, 並且定時轉為 git 格式後上傳到 github
+@echo off
+REM 設定 y 硬碟代號與 data 目錄對應
+set Disk=y
+subst %Disk%: "data"
+REM 設定 leo 相關對應 Home 位置
+set HomePath=%Disk%:\home
+set HomeDrive=%Disk%:\home
+set Home=%Disk%:\home
+REM 將系統 Python 程式的 io 設為 utf-8
+set PYTHONIOENCODING="utf-8"
+REM 將後續的指令執行, 以 %Disk% 為主
+%Disk%:
+REM 設定 PYTHONPATH
+set PYTHONPATH=%Disk%:\python-3.5.3-embed-amd64
+REM 設定 Leo 所用的編輯器
+set LEO_EDITOR=%Disk%:\wscite\SciTE.exe
+REM for fossil https 連線設定
+set HTTPS=on
+REM 指令搜尋路徑設定
+set path1=%PATH%;%Disk%:;%Disk%:\python-3.5.3-embed-amd64;%Disk%:\git\bin;%Disk%:\stunnel\bin;%Disk%:\sqlite-tools;%Disk%:\python-3.5.3-embed-amd64\Scripts;%Disk%:\portablegit\bin;
+set path2=c:\Windows\Microsoft.NET\Framework\v3.5;%Disk%:\python-3.5.3-embed-amd64\Lib\site-packages;
+path=%path%;%path1%;%path2%
+start /MIN %Disk%:\wscite\SciTE.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+REM 啟動 Leo 編輯器
+REM %Disk%:\Miniconda3\python.exe %Disk%:\apps\launchLeo.py
+REM 啟動 stunnel
+start /MIN fossil.exe server -P 127.0.0.1:8080 %Disk%:\tmp\fossil_repo\2017springcd_hw.fpssil
+REM 取得電腦 IP, 然後設定 %Disk%:/stunnel/config/stunnel.conf
+for /f "delims=[] tokens=2" %%a in ('ping -4 -n 1 %ComputerName% ^| findstr [') do set NetworkIP=%%a
+REM echo Network IP: %NetworkIP%
+REM Saved in %Disk%:\stunnel\config\stunnel.conf
+@echo off
+REM 建立 stunnel.conf
+@echo [https] &gt; %Disk%:\stunnel\config\stunnel.conf
+REM 附加資料
+@echo accept = %NetworkIP%:443 &gt;&gt; %Disk%:\stunnel\config\stunnel.conf
+@echo connect = 127.0.0.1:8080 &gt;&gt; %Disk%:\stunnel\config\stunnel.conf
+@echo TIMEOUTclose = 0 &gt;&gt; %Disk%:\stunnel\config\stunnel.conf
+@echo cert = %Disk%:\stunnel\config\localhost.crt &gt;&gt; %Disk%:\stunnel\config\stunnel.conf
+@echo key = %Disk%:\stunnel\config\localhost.key &gt;&gt; %Disk%:\stunnel\config\stunnel.conf
+REM 啟動 stunnel
+start /MIN stunnel.exe
+Exit
+&lt;/pre&gt;
+
+&lt;p&gt;2. 在tmp裏的fossil_repo目錄執行指令&lt;/p&gt;
+
+&lt;pre&gt;fossil init 2017springcd_hw.fpssil&lt;/pre&gt;
+
+&lt;p&gt;3. 查詢IP&lt;/p&gt;
+
+&lt;pre&gt;ipconfig /all&lt;/pre&gt;
+
+&lt;p&gt;4. 確認是否有用Poxy, 若有則需要將自己的IP設為例外&lt;/p&gt;
+
+&lt;p&gt;5. 使用瀏覽器輸入網址&lt;/p&gt;
+
+&lt;pre&gt;https://&lt;u&gt;電腦IPv4的IP&lt;/u&gt;&lt;/pre&gt;</summary><category term="HyperWorks"></category><category term="SolvSspace"></category><category term="Onshape"></category><category term="Fossil"></category></entry><entry><title>20170301 Week 2</title><link href="./Week%202.html" rel="alternate"></link><published>2017-03-01T11:00:00+08:00</published><updated>2017-03-01T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-03-01:./Week 2.html</id><summary type="html">&lt;h3&gt;分組座位原始碼&lt;/h3&gt;
 
 &lt;pre class="brush: python"&gt;
 #import os
@@ -56,10 +144,1015 @@ print("學生總數:", n)
 
 &lt;h3&gt;心得&lt;/h3&gt;
 
-&lt;p&gt;雖然程式能做的人也可以做, 但人會出錯, 簡單卻繁瑣的工作就交給程式, 困難的再讓人類來做就行了&lt;/p&gt;</summary><category term="syllabus"></category><category term="w2"></category></entry><entry><title>20170222 Week 1</title><link href="./Week%201.html" rel="alternate"></link><published>2017-02-22T11:00:00+08:00</published><updated>2017-02-22T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-02-22:./Week 1.html</id><summary type="html">&lt;h3&gt;修改stunnel.conf的IP設定&lt;/h3&gt;
+&lt;p&gt;雖然程式能做的人也可以做, 但人會出錯, 簡單卻繁瑣的工作就交給程式, 困難的再讓人來做就行了&lt;/p&gt;</summary><category term="SolvSspace"></category></entry><entry><title>20170222 Week 1</title><link href="./Week%201.html" rel="alternate"></link><published>2017-02-22T11:00:00+08:00</published><updated>2017-02-22T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-02-22:./Week 1.html</id><summary type="html">&lt;h3&gt;修改stunnel.conf的IP設定&lt;/h3&gt;
 
 &lt;iframe src="https://player.vimeo.com/video/205645881" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="https://vimeo.com/205645881"&gt;Week 1_Set IP&lt;/a&gt; from &lt;a href="https://vimeo.com/user46807821"&gt;NFU-MDE104B-40423226&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;心得: 還好還沒忘記, 複習一下ipconfig /all指令&lt;/p&gt;</summary><category term="teach"></category></entry></feed>
+&lt;p&gt;心得: 還好還沒忘記, 複習一下ipconfig /all指令&lt;/p&gt;</summary><category term="Stunnel"></category></entry><entry><title>Glyphicons</title><link href="./glyphicons.html" rel="alternate"></link><published>2017-02-21T11:00:00+08:00</published><updated>2017-02-21T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-02-21:./glyphicons.html</id><summary type="html">&lt;h2&gt;&lt;b&gt;&lt;div class="bs-glyphicons"&gt;
+    &lt;ul class="bs-glyphicons-list"&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-asterisk" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-asterisk&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-plus" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-plus&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-euro" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-euro&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-minus" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-minus&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-cloud" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-cloud&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-envelope" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-envelope&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-pencil" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-pencil&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-glass" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-glass&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-music" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-music&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-search" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-search&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-heart" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-heart&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-star" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-star&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-star-empty" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-star-empty&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-user" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-user&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-film" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-film&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-th-large" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-th-large&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-th" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-th&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-th-list" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-th-list&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-ok" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-ok&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-remove" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-remove&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-zoom-in" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-zoom-in&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-zoom-out" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-zoom-out&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-off" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-off&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-signal" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-signal&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-cog" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-cog&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-trash" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-trash&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-home" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-home&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-file" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-file&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-time" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-time&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-road" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-road&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-download-alt" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-download-alt&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-download" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-download&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-upload" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-upload&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-inbox" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-inbox&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-play-circle" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-play-circle&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-repeat" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-repeat&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-refresh" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-refresh&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-list-alt" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-list-alt&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-lock" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-lock&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-flag" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-flag&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-headphones" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-headphones&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-volume-off" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-volume-off&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-volume-down" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-volume-down&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-volume-up" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-volume-up&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-qrcode" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-qrcode&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-barcode" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-barcode&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-tag" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-tag&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-tags" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-tags&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-book" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-book&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-bookmark" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-bookmark&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-print" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-print&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-camera" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-camera&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-font" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-font&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-bold" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-bold&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-italic" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-italic&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-text-height" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-text-height&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-text-width" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-text-width&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-align-left" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-align-left&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-align-center" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-align-center&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-align-right" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-align-right&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-align-justify" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-align-justify&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-list" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-list&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-indent-left" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-indent-left&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-indent-right" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-indent-right&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-facetime-video" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-facetime-video&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-picture" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-picture&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-map-marker" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-map-marker&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-adjust" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-adjust&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-tint" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-tint&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-edit" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-edit&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-share" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-share&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-check" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-check&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-move" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-move&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-step-backward" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-step-backward&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-fast-backward" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-fast-backward&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-backward" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-backward&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-play" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-play&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-pause" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-pause&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-stop" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-stop&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-forward" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-forward&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-fast-forward" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-fast-forward&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-step-forward" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-step-forward&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-eject" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-eject&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-chevron-left" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-chevron-left&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-chevron-right" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-chevron-right&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-plus-sign" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-plus-sign&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-minus-sign" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-minus-sign&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-remove-sign" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-remove-sign&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-ok-sign" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-ok-sign&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-question-sign" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-question-sign&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-info-sign" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-info-sign&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-screenshot" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-screenshot&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-remove-circle" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-remove-circle&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-ok-circle" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-ok-circle&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-ban-circle" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-ban-circle&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-arrow-left" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-arrow-left&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-arrow-right" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-arrow-right&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-arrow-up" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-arrow-up&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-arrow-down" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-arrow-down&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-share-alt" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-share-alt&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-resize-full" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-resize-full&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-resize-small" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-resize-small&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-exclamation-sign&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-gift" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-gift&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-leaf" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-leaf&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-fire" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-fire&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-eye-open" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-eye-open&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-eye-close" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-eye-close&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-warning-sign" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-warning-sign&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-plane" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-plane&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-calendar" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-calendar&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-random" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-random&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-comment" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-comment&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-magnet" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-magnet&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-chevron-up" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-chevron-up&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-chevron-down" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-chevron-down&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-retweet" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-retweet&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-shopping-cart&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-folder-close" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-folder-close&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-folder-open" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-folder-open&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-resize-vertical" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-resize-vertical&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-resize-horizontal" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-resize-horizontal&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-hdd" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-hdd&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-bullhorn" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-bullhorn&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-bell" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-bell&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-certificate" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-certificate&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-thumbs-up&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-thumbs-down&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-hand-right" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-hand-right&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-hand-left" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-hand-left&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-hand-up" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-hand-up&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-hand-down" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-hand-down&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-circle-arrow-right&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-circle-arrow-left&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-circle-arrow-up" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-circle-arrow-up&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-circle-arrow-down&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-globe" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-globe&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-wrench" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-wrench&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-tasks" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-tasks&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-filter" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-filter&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-briefcase" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-briefcase&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-fullscreen" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-fullscreen&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-dashboard" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-dashboard&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-paperclip" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-paperclip&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-heart-empty" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-heart-empty&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-link" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-link&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-phone" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-phone&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-pushpin" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-pushpin&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-usd" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-usd&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-gbp" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-gbp&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-sort" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-sort&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-sort-by-alphabet" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-sort-by-alphabet&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-sort-by-alphabet-alt" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-sort-by-alphabet-alt&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-sort-by-order" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-sort-by-order&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-sort-by-order-alt" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-sort-by-order-alt&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-sort-by-attributes" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-sort-by-attributes&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-sort-by-attributes-alt" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-sort-by-attributes-alt&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-unchecked" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-unchecked&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-expand" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-expand&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-collapse-down" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-collapse-down&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-collapse-up" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-collapse-up&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-log-in" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-log-in&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-flash" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-flash&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-log-out" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-log-out&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-new-window" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-new-window&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-record" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-record&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-save" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-save&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-open" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-open&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-saved" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-saved&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-import" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-import&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-export" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-export&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-send" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-send&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-floppy-disk&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-floppy-saved" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-floppy-saved&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-floppy-remove" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-floppy-remove&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-floppy-save" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-floppy-save&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-floppy-open" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-floppy-open&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-credit-card" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-credit-card&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-transfer" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-transfer&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-cutlery" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-cutlery&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-header" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-header&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-compressed" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-compressed&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-earphone" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-earphone&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-phone-alt" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-phone-alt&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-tower" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-tower&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-stats" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-stats&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-sd-video" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-sd-video&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-hd-video" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-hd-video&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-subtitles" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-subtitles&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-sound-stereo" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-sound-stereo&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-sound-dolby" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-sound-dolby&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-sound-5-1" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-sound-5-1&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-sound-6-1" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-sound-6-1&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-sound-7-1" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-sound-7-1&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-copyright-mark&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-registration-mark" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-registration-mark&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-cloud-download" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-cloud-download&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-cloud-upload" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-cloud-upload&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-tree-conifer" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-tree-conifer&lt;/span&gt;
+        &lt;/li&gt;
+
+        &lt;li&gt;
+          &lt;span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"&gt;&lt;/span&gt;
+          &lt;span class="glyphicon-class"&gt;glyphicon glyphicon-tree-deciduous&lt;/span&gt;
+        &lt;/li&gt;
+
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/b&gt;&lt;/h2&gt;</summary><category term="Glyphicons"></category></entry></feed>
