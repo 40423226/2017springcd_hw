@@ -27,7 +27,7 @@
 <v t="yen.20170215103332.1"><vh>@edit base.html</vh></v>
 </v>
 </v>
-<v t="yen.20170120110024.1" a="E"><vh>@clean index.html</vh>
+<v t="yen.20170120110024.1"><vh>@clean index.html</vh>
 <v t="yen.20170120110024.2" a="E"><vh>html</vh>
 <v t="yen.20170120110024.3"><vh>head</vh></v>
 <v t="yen.20170120110024.4" a="E"><vh>body</vh>
@@ -44,7 +44,7 @@
 <v t="leo.20170304121232.3"><vh>上課內容1</vh></v>
 </v>
 </v>
-<v t="leo.20170304121240.1" a="E"><vh>20170301Week2</vh>
+<v t="leo.20170304121240.1"><vh>20170301Week2</vh>
 <v t="leo.20170304121240.2"><vh>課堂報告1</vh>
 <v t="leo.20170304121240.3"><vh>上課內容1</vh></v>
 </v>
