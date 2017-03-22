@@ -53,15 +53,14 @@ REM 附加資料
 REM 啟動 stunnel
 start /MIN stunnel.exe
 REM 以 chrome 連線到 https://%NetworkIP%:443
-chrome https://%NetworkIP%
-chrome https://mde2a2.kmol.info/cdbg1
+chrome https://%NetworkIP% https://mde2a2.kmol.info/cdbg1
 Exit
 &lt;/pre&gt;
 
 &lt;p&gt;&lt;/p&gt;2. 檢查是否有相對應的 fossil 檔案&lt;/p&gt;
 &lt;pre&gt;start /MIN fossil.exe server -P 127.0.0.1:8080 %Disk%:\tmp\fossil_repo\2017springcd_bg1.fpssil&lt;/pre&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;3. 自己額外在最後一行, 新增一個指令&lt;/p&gt;
-&lt;pre&gt;chrome https://mde2a2.kmol.info/cdbg1&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;3. 自己額外在最後一行, 新增一個小組 fpssil 網址&lt;/p&gt;
+&lt;pre&gt;https://mde2a2.kmol.info/cdbg1&lt;/pre&gt;&lt;/p&gt;
 &lt;h3&gt;建立與 project name 同名的首頁 wiki&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href="https://mde2a2.kmol.info/cdbg1"&gt;https://mde2a2.kmol.info/cdbg1&lt;/a&gt;&lt;/p&gt;
