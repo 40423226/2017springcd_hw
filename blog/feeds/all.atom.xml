@@ -69,7 +69,7 @@ Exit
 &lt;h3&gt;從 SolveSpace 匯出 onebar 並在 V-rep 加入馬達&lt;/h3&gt;
 
 &lt;p&gt;SolveSpacec 匯出: &lt;button onClick="lity('https://vimeo.com/209501913')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 影片&lt;/button&gt;&lt;p&gt;
-&lt;p&gt;V-rep 加入馬達: &lt;button onClick="lity('https://vimeo.com/209502238')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 影片&lt;/button&gt;&lt;p&gt;</summary><category term="Fossil"></category></entry><entry><title>201703015 Week 4</title><link href="./Week%204.html" rel="alternate"></link><published>2017-03-15T11:00:00+08:00</published><updated>2017-03-15T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-03-15:./Week 4.html</id><summary type="html">&lt;h3&gt;建立各組協同主機&lt;/h3&gt;
+&lt;p&gt;V-rep 加入馬達: &lt;button onClick="lity('https://vimeo.com/209502238')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 影片&lt;/button&gt;&lt;p&gt;</summary><category term="Fossil"></category><category term="SolveSpace"></category><category term="V-rep"></category></entry><entry><title>201703015 Week 4</title><link href="./Week%204.html" rel="alternate"></link><published>2017-03-15T11:00:00+08:00</published><updated>2017-03-15T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-03-15:./Week 4.html</id><summary type="html">&lt;h3&gt;建立各組協同主機&lt;/h3&gt;
 
 &lt;p&gt;2017springcd_bg1: &lt;a href="https://mde2a2.kmol.info/cdbg1"&gt;https://mde2a2.kmol.info/cdbg1&lt;/a&gt;&lt;/p&gt;
 
@@ -168,7 +168,7 @@ Exit
 
 &lt;p&gt;外加正三角形: 
 &lt;button onClick="lity('./../data/fourbar/solvespace_fourbar_triangle.png')"&gt;&lt;span class="glyphicon glyphicon-picture"&gt;&lt;/span&gt; 尺寸圖&lt;/button&gt; 
-&lt;button onClick="lity('./../data/fourbar/EXCEL_fourbar_triangle.png')"&gt;&lt;span class="glyphicon glyphicon-picture"&gt;&lt;/span&gt; 路徑圖&lt;/button&gt;&lt;/p&gt;</summary><category term="HyperWorks"></category><category term="SolvSspace"></category><category term="Onshape"></category><category term="Fossil"></category></entry><entry><title>20170301 Week 2</title><link href="./Week%202.html" rel="alternate"></link><published>2017-03-01T11:00:00+08:00</published><updated>2017-03-01T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-03-01:./Week 2.html</id><summary type="html">&lt;h3&gt;分組座位原始碼&lt;/h3&gt;
+&lt;button onClick="lity('./../data/fourbar/EXCEL_fourbar_triangle.png')"&gt;&lt;span class="glyphicon glyphicon-picture"&gt;&lt;/span&gt; 路徑圖&lt;/button&gt;&lt;/p&gt;</summary><category term="HyperWorks"></category><category term="SolveSpace"></category><category term="Onshape"></category><category term="Fossil"></category></entry><entry><title>20170301 Week 2</title><link href="./Week%202.html" rel="alternate"></link><published>2017-03-01T11:00:00+08:00</published><updated>2017-03-01T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-03-01:./Week 2.html</id><summary type="html">&lt;h3&gt;分組座位原始碼&lt;/h3&gt;
 
 &lt;pre class="brush: python"&gt;
 #import os
@@ -225,7 +225,7 @@ print("學生總數:", n)
 
 &lt;h3&gt;心得&lt;/h3&gt;
 
-&lt;p&gt;雖然程式能做的人也可以做, 但人會出錯, 簡單卻繁瑣的工作就交給程式, 困難的再讓人來做就行了&lt;/p&gt;</summary><category term="SolvSspace"></category></entry><entry><title>20170222 Week 1</title><link href="./Week%201.html" rel="alternate"></link><published>2017-02-22T11:00:00+08:00</published><updated>2017-02-22T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-02-22:./Week 1.html</id><summary type="html">&lt;h3&gt;修改 stunnel.conf 的 IP 設定&lt;/h3&gt;
+&lt;p&gt;雖然程式能做的人也可以做, 但人會出錯, 簡單卻繁瑣的工作就交給程式, 困難的再讓人來做就行了&lt;/p&gt;</summary><category term="SolveSpace"></category></entry><entry><title>20170222 Week 1</title><link href="./Week%201.html" rel="alternate"></link><published>2017-02-22T11:00:00+08:00</published><updated>2017-02-22T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-02-22:./Week 1.html</id><summary type="html">&lt;h3&gt;修改 stunnel.conf 的 IP 設定&lt;/h3&gt;
 
 &lt;iframe src="https://player.vimeo.com/video/205645881" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
