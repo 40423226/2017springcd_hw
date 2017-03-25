@@ -3,7 +3,9 @@
 
 &lt;p&gt;在 V-rep 模擬&lt;/p&gt;
 
-&lt;iframe src="https://player.vimeo.com/video/210018813" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="SolveSpace"></category><category term="V-rep"></category></entry><entry><title>201703022 Week 5</title><link href="./Week%205.html" rel="alternate"></link><published>2017-03-22T11:00:00+08:00</published><updated>2017-03-22T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-03-22:./Week 5.html</id><summary type="html">&lt;h3&gt;Fossil SCM 與 Stunnel 啟動整合&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/210018813" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/210018813"&gt;Fourbar (V-rep)&lt;/a&gt; from &lt;a href="https://vimeo.com/mde40423226"&gt;NFU-MDE-104B-40423226&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="SolveSpace"></category><category term="V-rep"></category></entry><entry><title>201703022 Week 5</title><link href="./Week%205.html" rel="alternate"></link><published>2017-03-22T11:00:00+08:00</published><updated>2017-03-22T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-03-22:./Week 5.html</id><summary type="html">&lt;h3&gt;Fossil SCM 與 Stunnel 啟動整合&lt;/h3&gt;
 
 &lt;p&gt;1. 更改 Start.bat 設定&lt;/p&gt;
 
@@ -224,7 +226,7 @@ print("學生總數:", n)
 
 &lt;iframe src="https://player.vimeo.com/video/206177676" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/206177676"&gt;Week 2_Fourbar&lt;/a&gt; from &lt;a href="https://vimeo.com/user46807821"&gt;NFU-MDE104B-40423226&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/206177676"&gt;Fourbar&lt;/a&gt; from &lt;a href="https://vimeo.com/mde40423226"&gt;NFU-MDE-104B-40423226&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3&gt;心得&lt;/h3&gt;
 
@@ -232,7 +234,7 @@ print("學生總數:", n)
 
 &lt;iframe src="https://player.vimeo.com/video/205645881" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/205645881"&gt;Week 1_Set IP&lt;/a&gt; from &lt;a href="https://vimeo.com/user46807821"&gt;NFU-MDE104B-40423226&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/205645881"&gt;Set stunnel IP&lt;/a&gt; from &lt;a href="https://vimeo.com/mde40423226"&gt;NFU-MDE-104B-40423226&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;心得: 還好還沒忘記, 複習一下ipconfig /all指令&lt;/p&gt;</summary><category term="Stunnel"></category></entry><entry><title>Glyphicons</title><link href="./glyphicons.html" rel="alternate"></link><published>2017-02-21T11:00:00+08:00</published><updated>2017-02-21T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-02-21:./glyphicons.html</id><summary type="html">&lt;h2&gt;&lt;b&gt;&lt;div class="bs-glyphicons"&gt;
     &lt;ul class="bs-glyphicons-list"&gt;
