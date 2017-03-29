@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (NFU-MDE104B-40423226)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-03-29T11:00:00+08:00</updated><entry><title>201703029 Week 6</title><link href="./Week%206.html" rel="alternate"></link><published>2017-03-29T11:00:00+08:00</published><updated>2017-03-29T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-03-29:./Week 6.html</id><summary type="html">&lt;h3&gt;Fourbar 運動模擬&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (NFU-MDE104B-40423226)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-03-29T11:00:00+08:00</updated><entry><title>201703029 Week 6</title><link href="./Week%206.html" rel="alternate"></link><published>2017-03-29T11:00:00+08:00</published><updated>2017-03-29T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-03-29:./Week 6.html</id><summary type="html">&lt;h3&gt;Fourbar 安裝 base&lt;/h3&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/210037555" width="640" height="332" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/210037555"&gt;Fourbar (base) (SolveSpace)&lt;/a&gt; from &lt;a href="https://vimeo.com/mde40423226"&gt;NFU-MDE-104B-40423226&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Fourbar 運動模擬&lt;/h3&gt;
 
 &lt;p&gt;在 V-rep 模擬&lt;/p&gt;
 
