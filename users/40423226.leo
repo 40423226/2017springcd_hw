@@ -76,6 +76,14 @@
 <v t="leo.20170322230631.28"><vh>上課內容1</vh></v>
 </v>
 </v>
+<v t="leo.20170329113630.1"><vh>20170329Week6</vh>
+<v t="leo.20170329113630.2" a="E"><vh>周次</vh>
+<v t="leo.20170329113630.3"><vh>Week</vh></v>
+</v>
+<v t="leo.20170329113630.4" a="E"><vh>課堂報告1</vh>
+<v t="leo.20170329113630.5"><vh>上課內容1</vh></v>
+</v>
+</v>
 <v t="leo.20170322230631.29"><vh>快捷鍵</vh>
 <v t="leo.20170322230631.30"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -431,6 +439,40 @@ make.start()
 <t tx="leo.20170322230631.9">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
+<t tx="leo.20170329113630.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170329113630.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170329113630.3"># Week 6
+</t>
+<t tx="leo.20170329113630.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170329113630.5">&lt;p align="left"&gt;
+1. 在 Onshape 及 SolveSpace 繪製出 Onebar 及 Fourbar&lt;/p&gt;
+
+&lt;p align="left"&gt;
+2. 將 Fourbar 匯入 V-rep 加入馬達&lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/210018813" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
