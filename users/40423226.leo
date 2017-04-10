@@ -84,6 +84,14 @@
 <v t="leo.20170329113630.5"><vh>上課內容1</vh></v>
 </v>
 </v>
+<v t="leo.20170410231245.1"><vh>20170405Week7</vh>
+<v t="leo.20170410231245.2" a="E"><vh>周次</vh>
+<v t="leo.20170410231245.3"><vh>Week</vh></v>
+</v>
+<v t="leo.20170410231245.4" a="E"><vh>課堂報告1</vh>
+<v t="leo.20170410231245.5"><vh>上課內容1</vh></v>
+</v>
+</v>
 <v t="leo.20170322230631.29"><vh>快捷鍵</vh>
 <v t="leo.20170322230631.30"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -111,6 +119,7 @@
 <v t="leo.20170316184218.1"><vh>@edit 20170315.md</vh></v>
 <v t="leo.20170322111300.1"><vh>@edit 20170322.md</vh></v>
 <v t="leo.20170325195626.1"><vh>@edit 20170329.md</vh></v>
+<v t="leo.20170410225841.1"><vh>@edit 20170405.md</vh></v>
 <v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
@@ -473,6 +482,41 @@ make.start()
 2. 將 Fourbar 匯入 V-rep 加入馬達&lt;/p&gt;
 
 &lt;iframe src="https://player.vimeo.com/video/210018813" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170410231245.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170410231245.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170410231245.3"># Week 7
+
+</t>
+<t tx="leo.20170410231245.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170410231245.5">&lt;p align="left"&gt;
+1. Fossil 檔案推送&lt;/p&gt;
+
+&lt;p align="left"&gt;
+2. V-rep 試著組合 8link, 練習 dummy 相關設定&lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/210892971" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
