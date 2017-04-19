@@ -100,6 +100,14 @@
 <v t="leo.20170412105857.5"><vh>上課內容1</vh></v>
 </v>
 </v>
+<v t="leo.20170419165732.1" a="E"><vh>20170419Week9</vh>
+<v t="leo.20170419165732.2"><vh>周次</vh>
+<v t="leo.20170419165732.3"><vh>Week</vh></v>
+</v>
+<v t="leo.20170419165732.4" a="E"><vh>課堂報告1</vh>
+<v t="leo.20170419165732.5"><vh>上課內容1</vh></v>
+</v>
+</v>
 <v t="leo.20170322230631.29"><vh>快捷鍵</vh>
 <v t="leo.20170322230631.30"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -129,6 +137,7 @@
 <v t="leo.20170325195626.1"><vh>@edit 20170329.md</vh></v>
 <v t="leo.20170410225841.1"><vh>@edit 20170405.md</vh></v>
 <v t="leo.20170412105653.1"><vh>@edit 20170412.md</vh></v>
+<v t="leo.20170419154104.1"><vh>@edit 20170419.md</vh></v>
 <v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
@@ -559,6 +568,49 @@ make.start()
 
 &lt;p align="left"&gt;
 2. 個人自評: http://mde1a2.kmol.info:8000/k96tgzh1ofbl &lt;/p&gt;</t>
+<t tx="leo.20170419165732.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170419165732.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170419165732.3"># Week 9
+
+###期中測驗
+</t>
+<t tx="leo.20170419165732.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170419165732.5">&lt;p align="left"&gt;
+1. Fossil Server 實習查驗 &lt;/p&gt;
+
+&lt;p align="left"&gt;
+2. 四連桿機構協同 Trace Point 查驗 &lt;/p&gt;
+
+&lt;p align="left"&gt;
+3. Fourbar Walker OnShape 零件協同繪圖與組立查驗 &lt;/p&gt;
+
+&lt;p align="left"&gt;
+4. 分組協同零件展示 &lt;/p&gt;
+
+&lt;p align="left"&gt;
+&lt;a href="http://mde.tw/2017springcd/blog/midterm-collaboration-evaluation.html"&gt;．詳細內容&lt;/a&gt;&lt;/p&gt;</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -666,7 +718,7 @@ import http.server, ssl
 def domake():
     # build directory
     os.chdir("./../")
-    server_address = ('localhost', 7443)
+    server_address = ('localhost', 7000)
     httpd = http.server.HTTPServer(server_address, http.server.SimpleHTTPRequestHandler)
     httpd.socket = ssl.wrap_socket(httpd.socket,
                                    server_side=True,
