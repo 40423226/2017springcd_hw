@@ -139,6 +139,7 @@
 <v t="leo.20170412105653.1"><vh>@edit 20170412.md</vh></v>
 <v t="leo.20170419154104.1"><vh>@edit 20170419.md</vh></v>
 <v t="leo.20170426114142.1"><vh>@edit 20170426.md</vh></v>
+<v t="leo.20170510085839.1"><vh>@edit 20170503.md</vh></v>
 <v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
@@ -726,7 +727,7 @@ def domake():
                                    certfile='localhost.crt',
                                    keyfile='localhost.key',
                                    ssl_version=ssl.PROTOCOL_TLSv1)
-    print("7443 https server started")
+    print("7000 https server started")
     httpd.serve_forever()
 
 # 利用執行緒執行 https 伺服器
