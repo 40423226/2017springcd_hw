@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-05-10T09:16:21-00:00</lastmod>
+<lastmod>2017-05-31T09:15:16-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-05-10T09:16:21-00:00</lastmod>
+<lastmod>2017-05-31T09:15:16-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-05-10T09:16:21-00:00</lastmod>
+<lastmod>2017-05-31T09:15:16-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-05-10T09:16:21-00:00</lastmod>
+<lastmod>2017-05-31T09:15:16-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -34,6 +34,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./pages/about/</loc>
 <lastmod>2017-04-26T08:51:14+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./Week 15.html</loc>
+<lastmod>2017-05-31T11:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -124,7 +131,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/course.html</loc>
-<lastmod>2017-05-03T11:00:00+08:06</lastmod>
+<lastmod>2017-05-31T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -137,15 +144,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/qi-zhong-ce-yan.html</loc>
-<lastmod>2017-04-26T11:00:00+08:06</lastmod>
+<loc>./tag/stunnel.html</loc>
+<lastmod>2017-02-22T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/brython.html</loc>
-<lastmod>2017-05-03T11:00:00+08:06</lastmod>
+<loc>./tag/solvespace.html</loc>
+<lastmod>2017-04-26T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -158,7 +165,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/fossil.html</loc>
+<loc>./tag/zi-ping-cheng-ji.html</loc>
+<lastmod>2017-04-12T11:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/brython.html</loc>
+<lastmod>2017-05-31T11:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/v-rep.html</loc>
 <lastmod>2017-04-05T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -172,36 +193,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/solvespace.html</loc>
-<lastmod>2017-04-26T11:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/v-rep.html</loc>
+<loc>./tag/fossil.html</loc>
 <lastmod>2017-04-05T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/zi-ping-cheng-ji.html</loc>
-<lastmod>2017-04-12T11:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/stunnel.html</loc>
-<lastmod>2017-02-22T11:00:00+08:06</lastmod>
+<loc>./tag/qi-zhong-ce-yan.html</loc>
+<lastmod>2017-04-26T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40423226.html</loc>
-<lastmod>2017-05-03T11:00:00+08:06</lastmod>
+<lastmod>2017-05-31T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

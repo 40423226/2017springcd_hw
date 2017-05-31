@@ -9,7 +9,7 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="yen.20170108171605.1" a="E"><vh>@settings</vh>
+<v t="yen.20170108171605.1"><vh>@settings</vh>
 <v t="yen.20170108171605.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="yen.20170108171605.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
@@ -18,29 +18,29 @@
 <v t="yen.20170108171733.2"><vh>@button pelican-blog</vh></v>
 <v t="yen.20170108171733.3"><vh>@edit README.md</vh></v>
 <v t="yen.20170108171733.4"><vh>@edit .gitignore</vh></v>
-<v t="yen.20170108171733.5" a="E"><vh>Pelican 設定</vh>
+<v t="yen.20170108171733.5"><vh>Pelican 設定</vh>
 <v t="yen.20170108171733.6"><vh>@edit local_publishconf.py</vh></v>
 <v t="yen.20170108171733.7"><vh>@edit pelicanconf.py</vh></v>
 </v>
-<v t="yen.20170215103217.1" a="E"><vh>編輯 template</vh>
-<v t="yen.20170215103228.1" a="E"><vh>@path theme/pelican-bootstrap3_local/templates</vh>
+<v t="yen.20170215103217.1"><vh>編輯 template</vh>
+<v t="yen.20170215103228.1"><vh>@path theme/pelican-bootstrap3_local/templates</vh>
 <v t="yen.20170215103332.1"><vh>@edit base.html</vh></v>
 </v>
 </v>
-<v t="yen.20170120110024.1" a="E"><vh>@clean index.html</vh>
-<v t="yen.20170120110024.2" a="E"><vh>html</vh>
+<v t="yen.20170120110024.1"><vh>@clean index.html</vh>
+<v t="yen.20170120110024.2"><vh>html</vh>
 <v t="yen.20170120110024.3"><vh>head</vh></v>
-<v t="yen.20170120110024.4" a="E"><vh>body</vh>
-<v t="yen.20170120110024.5" a="E"><vh>reveal div</vh>
-<v t="leo.20170322230631.1" a="E"><vh>slides div</vh>
+<v t="yen.20170120110024.4"><vh>body</vh>
+<v t="yen.20170120110024.5"><vh>reveal div</vh>
+<v t="leo.20170322230631.1"><vh>slides div</vh>
 <v t="leo.20170322230631.2"><vh>封面投影片</vh>
 <v t="leo.20170322230631.3"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20170322230631.4"><vh>20170222Week1</vh>
-<v t="leo.20170322230631.5" a="E"><vh>周次</vh>
+<v t="leo.20170322230631.5"><vh>周次</vh>
 <v t="leo.20170322230631.6"><vh>Week</vh></v>
 </v>
-<v t="leo.20170322230631.7" a="E"><vh>課堂報告1</vh>
+<v t="leo.20170322230631.7"><vh>課堂報告1</vh>
 <v t="leo.20170322230631.8"><vh>上課內容1</vh></v>
 </v>
 </v>
@@ -53,50 +53,50 @@
 </v>
 </v>
 <v t="leo.20170322230631.14"><vh>20170308Week3</vh>
-<v t="leo.20170322230631.15" a="E"><vh>周次</vh>
+<v t="leo.20170322230631.15"><vh>周次</vh>
 <v t="leo.20170322230631.16"><vh>Week</vh></v>
 </v>
-<v t="leo.20170322230631.17" a="E"><vh>課堂報告1</vh>
+<v t="leo.20170322230631.17"><vh>課堂報告1</vh>
 <v t="leo.20170322230631.18"><vh>上課內容1</vh></v>
 </v>
 </v>
 <v t="leo.20170322230631.19"><vh>20170315Week4</vh>
-<v t="leo.20170322230631.20" a="E"><vh>周次</vh>
+<v t="leo.20170322230631.20"><vh>周次</vh>
 <v t="leo.20170322230631.21"><vh>Week</vh></v>
 </v>
-<v t="leo.20170322230631.22" a="E"><vh>課堂報告1</vh>
+<v t="leo.20170322230631.22"><vh>課堂報告1</vh>
 <v t="leo.20170322230631.23"><vh>上課內容1</vh></v>
 </v>
 </v>
 <v t="leo.20170322230631.24"><vh>20170322Week5</vh>
-<v t="leo.20170322230631.25" a="E"><vh>周次</vh>
+<v t="leo.20170322230631.25"><vh>周次</vh>
 <v t="leo.20170322230631.26"><vh>Week</vh></v>
 </v>
-<v t="leo.20170322230631.27" a="E"><vh>課堂報告1</vh>
+<v t="leo.20170322230631.27"><vh>課堂報告1</vh>
 <v t="leo.20170322230631.28"><vh>上課內容1</vh></v>
 </v>
 </v>
 <v t="leo.20170329113630.1"><vh>20170329Week6</vh>
-<v t="leo.20170329113630.2" a="E"><vh>周次</vh>
+<v t="leo.20170329113630.2"><vh>周次</vh>
 <v t="leo.20170329113630.3"><vh>Week</vh></v>
 </v>
-<v t="leo.20170329113630.4" a="E"><vh>課堂報告1</vh>
+<v t="leo.20170329113630.4"><vh>課堂報告1</vh>
 <v t="leo.20170329113630.5"><vh>上課內容1</vh></v>
 </v>
 </v>
 <v t="leo.20170410231245.1"><vh>20170405Week7</vh>
-<v t="leo.20170410231245.2" a="E"><vh>周次</vh>
+<v t="leo.20170410231245.2"><vh>周次</vh>
 <v t="leo.20170410231245.3"><vh>Week</vh></v>
 </v>
-<v t="leo.20170410231245.4" a="E"><vh>課堂報告1</vh>
+<v t="leo.20170410231245.4"><vh>課堂報告1</vh>
 <v t="leo.20170410231245.5"><vh>上課內容1</vh></v>
 </v>
 </v>
 <v t="leo.20170412105857.1"><vh>20170412Week8</vh>
-<v t="leo.20170412105857.2" a="E"><vh>周次</vh>
+<v t="leo.20170412105857.2"><vh>周次</vh>
 <v t="leo.20170412105857.3"><vh>Week</vh></v>
 </v>
-<v t="leo.20170412105857.4" a="E"><vh>課堂報告1</vh>
+<v t="leo.20170412105857.4"><vh>課堂報告1</vh>
 <v t="leo.20170412105857.5"><vh>上課內容1</vh></v>
 </v>
 </v>
@@ -104,7 +104,7 @@
 <v t="leo.20170419165732.2"><vh>周次</vh>
 <v t="leo.20170419165732.3"><vh>Week</vh></v>
 </v>
-<v t="leo.20170419165732.4" a="E"><vh>課堂報告1</vh>
+<v t="leo.20170419165732.4"><vh>課堂報告1</vh>
 <v t="leo.20170419165732.5"><vh>上課內容1</vh></v>
 </v>
 </v>
@@ -112,13 +112,13 @@
 <v t="leo.20170322230631.30"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20170322230631.31"><vh>各式內容引用範例</vh>
-<v t="leo.20170322230631.32" a="E"><vh>導入數學符號與方程式</vh>
+<v t="leo.20170322230631.32"><vh>導入數學符號與方程式</vh>
 <v t="leo.20170322230631.33"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20170322230631.34" a="E"><vh>導入縮排程式碼</vh>
+<v t="leo.20170322230631.34"><vh>導入縮排程式碼</vh>
 <v t="leo.20170322230631.35"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20170322230631.36" a="E"><vh>導入影片</vh>
+<v t="leo.20170322230631.36"><vh>導入影片</vh>
 <v t="leo.20170322230631.37"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
@@ -140,7 +140,8 @@
 <v t="leo.20170419154104.1"><vh>@edit 20170419.md</vh></v>
 <v t="leo.20170426114142.1"><vh>@edit 20170426.md</vh></v>
 <v t="leo.20170510085839.1"><vh>@edit 20170503.md</vh></v>
-<v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
+<v t="leo.20170531082533.1"><vh>@edit 20170531.md</vh></v>
+<v t="yen.20170108171733.81"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
 </v>
@@ -148,7 +149,7 @@
 </v>
 <v t="yen.20170108171930.1"><vh>@button https server</vh></v>
 <v t="yen.20170108171939.1"><vh>@button ipv6 https server</vh></v>
-<v t="yen.20170120212350.1" a="E"><vh>programs</vh>
+<v t="yen.20170120212350.1"><vh>programs</vh>
 <v t="yen.20170210153828.1"><vh>v-rep rempte api</vh>
 <v t="yen.20170210202015.1"><vh>Python remote API</vh></v>
 <v t="yen.20170210170248.1"><vh>line tracer</vh></v>
@@ -161,7 +162,7 @@
 <v t="yen.20170120232548.1"><vh>calendar example</vh></v>
 <v t="yen.20170123204227.1"><vh>印出月曆以及各課程上課日期</vh></v>
 <v t="yen.20170207092354.1"><vh>協同程式參考</vh></v>
-<v t="yen.20170124102405.1" a="E"><vh>chat</vh>
+<v t="yen.20170124102405.1"><vh>chat</vh>
 <v t="yen.20170124102433.1"><vh>index.html</vh></v>
 </v>
 </v>
