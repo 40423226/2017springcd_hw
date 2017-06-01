@@ -328,7 +328,7 @@ class Spur(object):
             dr=(ra-rb)/imax
         # tan(pa*deg)-pa*deg 為漸開線函數
         sigma=math.pi/(2*n)+math.tan(pa*deg)-pa*deg
-        for j in range(n):
+        for j in range(2):
             ang=-2.*j*math.pi/n+sigma
             ang2=2.*j*math.pi/n+sigma
             lxd=midx+rd*math.sin(ang2-2.*math.pi/n)
@@ -849,17 +849,14 @@ ctx.closePath()
 &lt;p&gt;2. 會發現多一個 bg1.fossil 的檔案&lt;/p&gt;
 
 &lt;p&gt;3. 新建一個 wd 的目錄, 並且進去 wd 目錄&lt;/p&gt;
-
 &lt;pre&gt;
 mkdir wd
 cd wd&lt;/pre&gt;
 
 &lt;p&gt;4. 再新建一個 w7 的目錄, 並且進去 w7 目錄&lt;/p&gt;
-
 &lt;pre&gt;
 mkdir w7
 cd w7&lt;/pre&gt;
-
 &lt;p&gt;&lt;img src="../data/cd w7.png" width="800" /&gt;
 
 &lt;p&gt;5. 用相對位置打開 bg1.fossil &lt;/p&gt;
@@ -868,7 +865,6 @@ cd w7&lt;/pre&gt;
 &lt;p&gt;6. 有出現 _FOSSIL_ 檔, 代表有成功開啟&lt;/p&gt;
 
 &lt;p&gt;7.將推送的資料放進資料夾中&lt;/p&gt;
-
 &lt;p&gt;&lt;img src="../data/40423226.png" width="800" /&gt;
 
 &lt;p&gt;8. 依序輸入推送指令&lt;/p&gt;
@@ -886,9 +882,7 @@ fossil update&lt;/pre&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/211644591"&gt;Fossil 資料推送&lt;/a&gt; from &lt;a href="https://vimeo.com/mde40423226"&gt;NFU-MDE-104B-40423226&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3&gt;8link 運動模擬&lt;/h3&gt;
-
 &lt;iframe src="https://player.vimeo.com/video/210892971" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
 &lt;p&gt;&lt;a href="https://vimeo.com/210892971"&gt;jasen_8link (V-rep)&lt;/a&gt; from &lt;a href="https://vimeo.com/mde40423226"&gt;NFU-MDE-104B-40423226&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="Fossil"></category><category term="V-rep"></category></entry><entry><title>V-rep 模擬四連桿機構 ( 20170329 Week 6 )</title><link href="./Week%206.html" rel="alternate"></link><published>2017-03-29T11:00:00+08:00</published><updated>2017-03-29T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-03-29:./Week 6.html</id><summary type="html">&lt;h3&gt;Fourbar 安裝 base&lt;/h3&gt;
 
 &lt;iframe src="https://player.vimeo.com/video/210037555" width="640" height="332" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
