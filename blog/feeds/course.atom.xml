@@ -452,7 +452,7 @@ n = 36
 # 壓力角
 pa = 20
 Spur(ctx).Gear(x, y, r, n, pa, "blue")
-&lt;/script&gt;</summary><category term="Brython"></category></entry><entry><title>架設伺服器主機 ( 20170524 Week 14 )</title><link href="./Week%2014.html" rel="alternate"></link><published>2017-05-24T11:00:00+08:00</published><updated>2017-05-24T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-05-24:./Week 14.html</id><summary type="html">&lt;h3&gt;目標純 IPv6 主機&lt;/h3&gt;
+&lt;/script&gt;</summary><category term="Brython"></category></entry><entry><title>架設伺服器主機 ( 20170524 Week 14 )</title><link href="./Week%2014.html" rel="alternate"></link><published>2017-05-24T11:00:00+08:00</published><updated>2017-05-24T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-05-24:./Week 14.html</id><summary type="html">&lt;h3&gt;純 IPv6 網路的主機&lt;/h3&gt;
 
 
 
@@ -875,6 +875,8 @@ pa = 20
 Spur(ctx).Gear(x, y, r, n, pa, "blue")
 &lt;/script&gt;
 
+&lt;h3&gt;導入 Cango 程式庫繪製正齒輪廓&lt;/h3&gt;
+
 &lt;!-- 以下處理 Cango Spur Gear --&gt;
 
 &lt;!-- Cango 程式庫 --&gt;
@@ -1033,7 +1035,7 @@ ctx.closePath()
 
 &lt;p&gt;V-rep 運動模擬: &lt;button onClick="lity('https://vimeo.com/214771464')"&gt;&lt;span class="glyphicon glyphicon-facetime-video"&gt;&lt;/span&gt; 影片&lt;/button&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="../data/fourbar/fourbar walker.png" width="800" /&gt;</summary><category term="SolveSpace"></category><category term="期中測驗"></category></entry><entry><title>期中測驗 ( 20170412 Week 9 )</title><link href="./Week%209.html" rel="alternate"></link><published>2017-04-19T11:00:00+08:00</published><updated>2017-04-19T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-04-19:./Week 9.html</id><summary type="html">&lt;h3&gt;四連桿機構協同 Trace Point 查驗&lt;/h3&gt;
+&lt;p&gt;&lt;img src="../data/fourbar/fourbar walker.png" width="800" /&gt;</summary><category term="SolveSpace"></category><category term="Onshape"></category><category term="V-rep"></category></entry><entry><title>期中測驗 ( 20170412 Week 9 )</title><link href="./Week%209.html" rel="alternate"></link><published>2017-04-19T11:00:00+08:00</published><updated>2017-04-19T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-04-19:./Week 9.html</id><summary type="html">&lt;h3&gt;四連桿機構協同 Trace Point 查驗&lt;/h3&gt;
 
 
 

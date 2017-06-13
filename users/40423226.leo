@@ -28,11 +28,11 @@
 </v>
 </v>
 <v t="yen.20170120110024.1"><vh>@clean index.html</vh>
-<v t="yen.20170120110024.2"><vh>html</vh>
+<v t="yen.20170120110024.2" a="E"><vh>html</vh>
 <v t="yen.20170120110024.3"><vh>head</vh></v>
-<v t="yen.20170120110024.4"><vh>body</vh>
-<v t="yen.20170120110024.5"><vh>reveal div</vh>
-<v t="leo.20170322230631.1"><vh>slides div</vh>
+<v t="yen.20170120110024.4" a="E"><vh>body</vh>
+<v t="yen.20170120110024.5" a="E"><vh>reveal div</vh>
+<v t="leo.20170322230631.1" a="E"><vh>slides div</vh>
 <v t="leo.20170322230631.2"><vh>封面投影片</vh>
 <v t="leo.20170322230631.3"><vh>封面投影片內容</vh></v>
 </v>
@@ -106,6 +106,65 @@
 </v>
 <v t="leo.20170419165732.4"><vh>課堂報告1</vh>
 <v t="leo.20170419165732.5"><vh>上課內容1</vh></v>
+</v>
+</v>
+<v t="leo.20170613224838.1"><vh>20170426Week10</vh>
+<v t="leo.20170613224838.2"><vh>周次</vh>
+<v t="leo.20170613224838.3"><vh>Week</vh></v>
+</v>
+<v t="leo.20170613224838.4"><vh>課堂報告1</vh>
+<v t="leo.20170613224838.5"><vh>上課內容1</vh></v>
+</v>
+</v>
+<v t="leo.20170613224839.1"><vh>20170503Week11</vh>
+<v t="leo.20170613224839.2"><vh>周次</vh>
+<v t="leo.20170613224839.3"><vh>Week</vh></v>
+</v>
+<v t="leo.20170613224839.4"><vh>課堂報告1</vh>
+<v t="leo.20170613224839.5"><vh>上課內容1</vh></v>
+</v>
+</v>
+<v t="leo.20170613225655.1"><vh>20170510Week12</vh>
+<v t="leo.20170613225655.2"><vh>周次</vh>
+<v t="leo.20170613225655.3"><vh>Week</vh></v>
+</v>
+<v t="leo.20170613225655.4"><vh>課堂報告1</vh>
+<v t="leo.20170613225655.5"><vh>上課內容1</vh></v>
+</v>
+</v>
+<v t="leo.20170613225657.1"><vh>20170517Week13</vh>
+<v t="leo.20170613225657.2"><vh>周次</vh>
+<v t="leo.20170613225657.3"><vh>Week</vh></v>
+</v>
+<v t="leo.20170613225657.4"><vh>課堂報告1</vh>
+<v t="leo.20170613225657.5"><vh>上課內容1</vh></v>
+</v>
+</v>
+<v t="leo.20170613225714.1"><vh>20170524Week14</vh>
+<v t="leo.20170613225714.2"><vh>周次</vh>
+<v t="leo.20170613225714.3"><vh>Week</vh></v>
+</v>
+<v t="leo.20170613225714.4"><vh>課堂報告1</vh>
+<v t="leo.20170613225714.5"><vh>上課內容1</vh></v>
+</v>
+</v>
+<v t="leo.20170613225728.1"><vh>20170531Week15</vh>
+<v t="leo.20170613225728.2"><vh>周次</vh>
+<v t="leo.20170613225728.3"><vh>Week</vh></v>
+</v>
+<v t="leo.20170613225728.4"><vh>課堂報告1</vh>
+<v t="leo.20170613225728.5"><vh>上課內容1</vh></v>
+</v>
+<v t="leo.20170613231424.1"><vh>課堂報告2</vh>
+<v t="leo.20170613231424.2"><vh>上課內容2</vh></v>
+</v>
+</v>
+<v t="leo.20170613231619.1"><vh>20170607Week16</vh>
+<v t="leo.20170613231619.2"><vh>周次</vh>
+<v t="leo.20170613231619.3"><vh>Week</vh></v>
+</v>
+<v t="leo.20170613231619.4"><vh>課堂報告1</vh>
+<v t="leo.20170613231619.5"><vh>上課內容1</vh></v>
 </v>
 </v>
 <v t="leo.20170322230631.29"><vh>快捷鍵</vh>
@@ -618,6 +677,266 @@ make.start()
 
 &lt;p align="left"&gt;
 &lt;a href="http://mde.tw/2017springcd/blog/midterm-collaboration-evaluation.html"&gt;．詳細內容&lt;/a&gt;&lt;/p&gt;</t>
+<t tx="leo.20170613224838.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170613224838.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170613224838.3"># Week 10
+
+###期中測驗資料整理
+</t>
+<t tx="leo.20170613224838.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170613224838.5">&lt;p align="left"&gt;
+1. FeatureScript 正齒輪 &lt;/p&gt;
+
+&lt;p align="left"&gt;
+2. Fourbar 行走機構 &lt;/p&gt;
+
+&lt;p align="left"&gt;
+3. Onshape 運動模擬 &lt;/p&gt;
+
+&lt;p align="left"&gt;
+4. V-rep 運動模擬 &lt;/p&gt;</t>
+<t tx="leo.20170613224839.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170613224839.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170613224839.3"># Week 11
+
+###2D 正齒輪繪圖
+</t>
+<t tx="leo.20170613224839.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170613224839.5">&lt;p align="left"&gt;
+1. 以 Brython 繪製單一正齒輪廓 &lt;/p&gt;
+
+&lt;p align="left"&gt;
+2. 導入 Cango 程式庫繪製正齒輪廓 &lt;/p&gt;
+</t>
+<t tx="leo.20170613225655.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170613225655.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170613225655.3"># Week 12
+
+###繪製漸開線齒輪</t>
+<t tx="leo.20170613225655.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170613225655.5">&lt;p align="left"&gt;
+1. FeatureScript 正齒輪 &lt;/p&gt;</t>
+<t tx="leo.20170613225657.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170613225657.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170613225657.3"># Week 13
+
+###行走機構
+</t>
+<t tx="leo.20170613225657.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170613225657.5">&lt;p align="left"&gt;
+1. 繪製八連桿行走機構 &lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/221439193" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170613225714.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170613225714.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170613225714.3"># Week 14
+
+###架設伺服器主機
+</t>
+<t tx="leo.20170613225714.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170613225714.5">&lt;p align="left"&gt;
+1. 純 IPv6 網路的主機 &lt;/p&gt;
+
+&lt;p align="left"&gt;
+詳細的安裝過程請參考這位同學的介紹: &lt;a href="https://40423245.github.io/2017springcd_hw/blog/2017spring-cd-W14.html"&gt;40423245&lt;/a&gt; &lt;/p&gt;</t>
+<t tx="leo.20170613225728.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170613225728.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170613225728.3"># Week 15
+
+###協同練習
+</t>
+<t tx="leo.20170613225728.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170613225728.5">&lt;p align="left"&gt;
+1. 以 W15 練習為網誌標題, 800x600 為畫布大小, 在畫布正中央畫一個半徑為 250 畫素, 壓力角 20, 齒數為 36 齒, 且只有上半齒形的漸開線正齒輪輪廓. &lt;/p&gt;
+
+&lt;p align="left"&gt;
+2. 完成後, 請在正齒輪中央寫上自己的學號, 並建立第二個 800x600 的畫布, 請畫出只有一齒輪廓, 且充滿畫布 80% 範圍的正齒輪, 且該齒輪廓下方水平線, 連接兩端齒根圓點交的直線以紅色繪製, 且在齒輪下方以藍色字元寫上自己的學號. &lt;/p&gt;
+</t>
+<t tx="leo.20170613231424.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170613231424.2">&lt;p align="left"&gt;
+3. 請各學員在各自 github 倉儲中的 data/py 目錄中, 編寫一個可以採圓心座標, 節圓半徑, 齒數, 壓力角與定位角度作為輸入的齒輪程式函式, 交由組長從各組員的 submodule 設定中呼叫導入, 以便在各分組的網頁中完成一個畫出所有組員協同繪圖的齒輪減速組圖, 且各齒輪正中心必須寫上組員學號, 各組按照學號大小排序, 分別由最右邊齒數 16 齒開始囓合, 依序增加 2 齒, 當排至平面四齒囓合後, 第五位組員則以垂直方向向下囓合兩個齒輪後, 轉由右至左水平排列, 直至所有組員均各提供一個協同囓合用的齒輪為止.&lt;/p&gt;
+
+&lt;p align="left"&gt;
+4. 請依照上述規劃, 在 Onshape 完成相同齒輪組的囓合協同繪圖. &lt;/p&gt;
+
+&lt;p align="left"&gt;
+5. 各組員與組員請同時用 Youtube 與 vimeo, 紀錄上述各階段程式編寫與繪圖配置的 mp4 影片檔案, 標題為"協同產品設計實習第十五週練習". &lt;/p&gt;</t>
+<t tx="leo.20170613231619.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170613231619.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170613231619.3"># Week 16
+
+###齒輪模擬
+</t>
+<t tx="leo.20170613231619.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170613231619.5">&lt;p align="left"&gt;
+1. V-rep 模擬齒輪傳動 &lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/221432081" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
