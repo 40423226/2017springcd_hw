@@ -1104,9 +1104,11 @@ Constraint.other=0
 Constraint.other2=0
 Constraint.reference=0
 AddConstraint
+&lt;/pre&gt;
 
+&lt;h3&gt;3D 繪圖&lt;/h3&gt;
 
-&lt;/pre&gt;</summary><category term="SolveSpace"></category></entry><entry><title>齒輪模擬 ( 20170607 Week 16 )</title><link href="./Week%2016.html" rel="alternate"></link><published>2017-06-07T11:00:00+08:00</published><updated>2017-06-07T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-06-07:./Week 16.html</id><summary type="html">&lt;h3&gt;V-rep 模擬齒輪傳動&lt;/h3&gt;
+&lt;iframe src="../data/w17/twolink.html" width="800" height="480"&gt;&lt;/iframe&gt;</summary><category term="SolveSpace"></category></entry><entry><title>齒輪模擬 ( 20170607 Week 16 )</title><link href="./Week%2016.html" rel="alternate"></link><published>2017-06-07T11:00:00+08:00</published><updated>2017-06-07T11:00:00+08:00</updated><author><name>40423226</name></author><id>tag:,2017-06-07:./Week 16.html</id><summary type="html">&lt;h3&gt;V-rep 模擬齒輪傳動&lt;/h3&gt;
 
 
 
