@@ -27,12 +27,12 @@
 <v t="yen.20170215103332.1"><vh>@edit base.html</vh></v>
 </v>
 </v>
-<v t="yen.20170120110024.1"><vh>@clean index.html</vh>
-<v t="yen.20170120110024.2"><vh>html</vh>
+<v t="yen.20170120110024.1" a="E"><vh>@clean index.html</vh>
+<v t="yen.20170120110024.2" a="E"><vh>html</vh>
 <v t="yen.20170120110024.3"><vh>head</vh></v>
-<v t="yen.20170120110024.4"><vh>body</vh>
-<v t="yen.20170120110024.5"><vh>reveal div</vh>
-<v t="leo.20170322230631.1"><vh>slides div</vh>
+<v t="yen.20170120110024.4" a="E"><vh>body</vh>
+<v t="yen.20170120110024.5" a="E"><vh>reveal div</vh>
+<v t="leo.20170322230631.1" a="E"><vh>slides div</vh>
 <v t="leo.20170322230631.2"><vh>封面投影片</vh>
 <v t="leo.20170322230631.3"><vh>封面投影片內容</vh></v>
 </v>
@@ -165,6 +165,20 @@
 </v>
 <v t="leo.20170613231619.4"><vh>課堂報告1</vh>
 <v t="leo.20170613231619.5"><vh>上課內容1</vh></v>
+</v>
+</v>
+<v t="leo.20170618223613.1"><vh>20170614Week17</vh>
+<v t="leo.20170618223613.2"><vh>周次</vh>
+<v t="leo.20170618223613.3"><vh>Week</vh></v>
+</v>
+<v t="leo.20170618223613.4"><vh>課堂報告1</vh>
+<v t="leo.20170618223613.5"><vh>上課內容1</vh></v>
+</v>
+<v t="leo.20170618223757.1"><vh>課堂報告2</vh>
+<v t="leo.20170618223757.2"><vh>上課內容2</vh></v>
+</v>
+<v t="leo.20170618223800.1"><vh>課堂報告3</vh>
+<v t="leo.20170618223800.2"><vh>上課內容3</vh></v>
 </v>
 </v>
 <v t="leo.20170322230631.29"><vh>快捷鍵</vh>
@@ -938,6 +952,80 @@ make.start()
 1. V-rep 模擬齒輪傳動 &lt;/p&gt;
 
 &lt;iframe src="https://player.vimeo.com/video/221432081" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170618223613.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170618223613.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170618223613.3"># Week 17
+
+###完成 7 項任務
+</t>
+<t tx="leo.20170618223613.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170618223613.5">&lt;p align="left"&gt;
+1. 在各自的倉儲中, 建立一個雙足 solvepace 機構零組件, 存入 final 子目錄中. &lt;/p&gt;
+
+&lt;p align="left"&gt;
+2. 在各自的網誌上, 以 "W17 行走機構 2D 靜態繪圖"為標題, 以 Brython 畫出行走機構的示意圖. &lt;/p&gt;
+
+&lt;p align="left"&gt;
+3. 在各自的倉儲中, 將 https://github.com/scrum-1/cdbw17 倉儲納入作為 w17 子目錄, 並設法導入其中的 script1.py 進行 axises() 繪圖函式的呼叫, 在任務 2 的圖中畫出座標軸. &lt;/p&gt;
+</t>
+<t tx="leo.20170618223757.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170618223757.2">&lt;p align="left"&gt;
+4. 在各自的網誌中設法動態顯示出任務 1 所完成的零組件. &lt;/p&gt;
+
+&lt;p align="left"&gt;
+5. 將任務 1 所完成的行走機構匯入 V-rep, 並設法模擬雙足機構作動過程. &lt;/p&gt;
+
+&lt;p align="left"&gt;
+6. 請在網誌中, 以"期末分組專題"為標題, 說明在分組行走機構模擬與實作過程中所扮演的角色, 並說明所負責完成的任務. &lt;/p&gt;
+
+&lt;p align="left"&gt;
+1. 在各自的倉儲中, 建立一個雙足 solvepace 機構零組件, 存入 final 子目錄中 &lt;/p&gt;</t>
+<t tx="leo.20170618223800.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170618223800.2">&lt;p align="left"&gt;
+7. 各組以協同方式整合各組組員所完成的倉儲, 網誌與操作影片後, 以學號名稱當作子目錄, 其中放入各組員上述各題所完成的操作影片後, 上傳到各組在系上的 Fossil SCM 倉儲, 並設法用各組的 Github Pages 進行分組簡報. &lt;/p&gt;
+</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
