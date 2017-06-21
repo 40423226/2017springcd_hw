@@ -181,6 +181,23 @@
 <v t="leo.20170618223800.2"><vh>上課內容3</vh></v>
 </v>
 </v>
+<v t="leo.20170621082219.1" a="E"><vh>20170621Week18</vh>
+<v t="leo.20170621082219.2"><vh>周次</vh>
+<v t="leo.20170621082219.3"><vh>Week</vh></v>
+</v>
+<v t="leo.20170621082219.4"><vh>課堂報告1</vh>
+<v t="leo.20170621082219.5"><vh>上課內容1</vh></v>
+</v>
+<v t="leo.20170621082219.6"><vh>課堂報告2</vh>
+<v t="leo.20170621082219.7"><vh>上課內容2</vh></v>
+</v>
+<v t="leo.20170621082219.8"><vh>課堂報告3</vh>
+<v t="leo.20170621082219.9"><vh>上課內容3</vh></v>
+</v>
+<v t="leo.20170621090734.1"><vh>課堂報告4</vh>
+<v t="leo.20170621090734.2"><vh>上課內容4</vh></v>
+</v>
+</v>
 <v t="leo.20170322230631.29"><vh>快捷鍵</vh>
 <v t="leo.20170322230631.30"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -1009,9 +1026,7 @@ make.start()
 
 &lt;p align="left"&gt;
 6. 請在網誌中, 以"期末分組專題"為標題, 說明在分組行走機構模擬與實作過程中所扮演的角色, 並說明所負責完成的任務. &lt;/p&gt;
-
-&lt;p align="left"&gt;
-1. 在各自的倉儲中, 建立一個雙足 solvepace 機構零組件, 存入 final 子目錄中 &lt;/p&gt;</t>
+</t>
 <t tx="leo.20170618223800.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -1026,6 +1041,106 @@ make.start()
 <t tx="leo.20170618223800.2">&lt;p align="left"&gt;
 7. 各組以協同方式整合各組組員所完成的倉儲, 網誌與操作影片後, 以學號名稱當作子目錄, 其中放入各組員上述各題所完成的操作影片後, 上傳到各組在系上的 Fossil SCM 倉儲, 並設法用各組的 Github Pages 進行分組簡報. &lt;/p&gt;
 </t>
+<t tx="leo.20170621082219.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170621082219.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170621082219.3"># Week 18
+
+###期末報告
+</t>
+<t tx="leo.20170621082219.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170621082219.5">&lt;p align="left"&gt;
+( Week 12 ) 利用 Onshape 上的 FeatureScript Spur Gear 特徵, 繪製正齒輪,並模擬轉動. &lt;/p&gt;
+
+&lt;p align="left"&gt;
+( Week 13 ) 在 Onshape 練習畫行走機構. &lt;/p&gt;
+&lt;p align="left"&gt;   ( 八連桿行走機構: &lt;a href="https://cad.onshape.com/documents/879707e18426946a8c742224/w/86a9487ba0d7fb4a58235937/e/c05ca95a2cce13c6cda7dd24"&gt;OnShape 連結&lt;/a&gt;, &lt;a href="https://vimeo.com/222444507"&gt;動畫模擬&lt;/a&gt; )&lt;/p&gt;
+
+</t>
+<t tx="leo.20170621082219.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170621082219.7">&lt;p align="left"&gt;
+( Week 14 ) 練習架設純 IPv6 主機. &lt;/p&gt;
+
+&lt;p align="left"&gt;
+( Week 15 ) 組員協同練習. &lt;/p&gt;
+
+&lt;img src="./data/gear_40423226.png" width="400" /&gt;
+
+&lt;img src="./data/gear_half.png" width="400" /&gt;
+</t>
+<t tx="leo.20170621082219.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170621082219.9">&lt;p align="left"&gt;
+( Week 16 ) 齒輪模擬&lt;/p&gt;
+&lt;p align="left"&gt;
+齒輪相關位置: &lt;a href="https://cad.onshape.com/documents/3a2549ab99b13281cac32c23/w/a9f55d2d894d01b808e45105/e/a84254b91e01114cff9f182f"&gt;OnShape 連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p align="left"&gt;
+齒輪動態模擬: &lt;a href="https://vimeo.com/221432081"&gt;間齒輪為動力輸出&lt;/a&gt;, &lt;a href="https://vimeo.com/221432137"&gt;左右齒輪為動力輸出&lt;/a&gt;&lt;/p&gt;
+
+&lt;p align="left"&gt;
+GearMechanism 範例: &lt;a href="https://vimeo.com/221432102"&gt; 影片連結&lt;/a&gt;&lt;/p&gt;
+</t>
+<t tx="leo.20170621090734.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170621090734.2">&lt;p align="left"&gt;
+( Week 17 ) 完成 7 項任務&lt;/p&gt;
+&lt;p align="left"&gt;
+影片: &lt;a href="https://vimeo.com/221525956"&gt;題目 1 &lt;/a&gt;, &lt;a href="https://vimeo.com/222085059"&gt;題目 2 &lt;/a&gt;, &lt;a href="https://vimeo.com/221525966"&gt;題目 3 &lt;/a&gt;&lt;a href="https://vimeo.com/221526016"&gt;題目 4 &lt;/a&gt;, &lt;a href="https://vimeo.com/221525971"&gt;題目 5 &lt;/a&gt;, &lt;a href="https://vimeo.com/221525977"&gt;題目 6 &lt;/a&gt;, &lt;a href="https://vimeo.com/221525982"&gt;題目 7 &lt;/a&gt;&lt;/p&gt;
+
+&lt;p align="left"&gt;
+SolveSpace 3D 繪圖, Brython 2D 繪圖:&lt;/p&gt;
+ &lt;iframe src="./data/w17/twolink.html" width="400" height="300"&gt;&lt;/iframe&gt;
+&lt;img src="./data/Brython_2D.png" width="400"  /&gt;</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
