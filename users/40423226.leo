@@ -181,7 +181,7 @@
 <v t="leo.20170618223800.2"><vh>上課內容3</vh></v>
 </v>
 </v>
-<v t="leo.20170621082219.1" a="E"><vh>20170621Week18</vh>
+<v t="leo.20170621082219.1"><vh>20170621Week18</vh>
 <v t="leo.20170621082219.2"><vh>周次</vh>
 <v t="leo.20170621082219.3"><vh>Week</vh></v>
 </v>
@@ -236,6 +236,7 @@
 <v t="leo.20170531082533.1"><vh>@edit 20170531.md</vh></v>
 <v t="leo.20170613212600.1"><vh>@edit 20170607.md</vh></v>
 <v t="leo.20170614092433.1"><vh>@edit 20170614.md</vh></v>
+<v t="leo.20170621102856.1"><vh>@edit 20170621.md</vh></v>
 <v t="yen.20170108171733.81"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
@@ -1072,10 +1073,10 @@ make.start()
 </t>
 <t tx="leo.20170621082219.5">&lt;p align="left"&gt;
 ( Week 12 ) 利用 Onshape 上的 FeatureScript Spur Gear 特徵, 繪製正齒輪,並模擬轉動. &lt;/p&gt;
-
+&lt;p align="left"&gt;   ( 齒輪配合: &lt;a href="https://cad.onshape.com/documents/879707e18426946a8c742224/w/86a9487ba0d7fb4a58235937/e/c05ca95a2cce13c6cda7dd24"&gt;OnShape 連結&lt;/a&gt;, &lt;a href="https://vimeo.com/221439193"&gt;動畫模擬&lt;/a&gt; )&lt;/p&gt;
 &lt;p align="left"&gt;
 ( Week 13 ) 在 Onshape 練習畫行走機構. &lt;/p&gt;
-&lt;p align="left"&gt;   ( 八連桿行走機構: &lt;a href="https://cad.onshape.com/documents/879707e18426946a8c742224/w/86a9487ba0d7fb4a58235937/e/c05ca95a2cce13c6cda7dd24"&gt;OnShape 連結&lt;/a&gt;, &lt;a href="https://vimeo.com/222444507"&gt;動畫模擬&lt;/a&gt; )&lt;/p&gt;
+&lt;p align="left"&gt;   ( 八連桿行走機構: &lt;a href="https://cad.onshape.com/documents/879707e18426946a8c742224/w/86a9487ba0d7fb4a58235937/e/c05ca95a2cce13c6cda7dd24"&gt;OnShape 連結&lt;/a&gt;, &lt;a href="https://vimeo.com/221439193"&gt;動畫模擬&lt;/a&gt; )&lt;/p&gt;
 
 </t>
 <t tx="leo.20170621082219.6">&lt;section data-markdown&gt;
@@ -1116,7 +1117,7 @@ make.start()
 齒輪相關位置: &lt;a href="https://cad.onshape.com/documents/3a2549ab99b13281cac32c23/w/a9f55d2d894d01b808e45105/e/a84254b91e01114cff9f182f"&gt;OnShape 連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p align="left"&gt;
-齒輪動態模擬: &lt;a href="https://vimeo.com/221432081"&gt;間齒輪為動力輸出&lt;/a&gt;, &lt;a href="https://vimeo.com/221432137"&gt;左右齒輪為動力輸出&lt;/a&gt;&lt;/p&gt;
+齒輪動態模擬: &lt;a href="https://vimeo.com/221432081"&gt;中間齒輪為動力輸出&lt;/a&gt;, &lt;a href="https://vimeo.com/221432137"&gt;左右齒輪為動力輸出&lt;/a&gt;&lt;/p&gt;
 
 &lt;p align="left"&gt;
 GearMechanism 範例: &lt;a href="https://vimeo.com/221432102"&gt; 影片連結&lt;/a&gt;&lt;/p&gt;
